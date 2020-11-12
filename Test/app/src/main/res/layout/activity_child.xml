@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff"
+    android:weightSum="10"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#6699FF"
+        android:layout_weight="2"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/hinh"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:civ_border_width="5dp"
+        android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="50dp"
+            app:civ_border_color="#ffff"
+            >
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/txTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hinh"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="fbcfbcfn"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txSdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txTen"
+            android:layout_centerHorizontal="true"
+
+            android:text="fbcfbcfn"
+            android:textColor="#ffff"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RECORD"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Incoming"
+        android:textStyle="bold"
+        android:textSize="20sp"
+       />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dial out"
+        android:textStyle="bold"
+        android:textSize="20sp"
+       />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Incoming"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dial out"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
